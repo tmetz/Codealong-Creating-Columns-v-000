@@ -81,8 +81,8 @@ img, video, audio {
 
 * {
   box-sizing: border-box; /* includes both padding and border in width */
-  -webkit-box-sizing: border-box; 
-  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; /* Safari */
+  -moz-box-sizing: border-box;  /* Firefox */
 }
 
 .wrapper {
