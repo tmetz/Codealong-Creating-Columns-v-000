@@ -79,6 +79,12 @@ img, video, audio {
 
 /* LAYOUT */
 
+* {
+  box-sizing: border-box; /* includes both padding and border in width */
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+}
+
 .wrapper {
   width: 960px;
   margin: 0 auto;
